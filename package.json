@@ -1,0 +1,38 @@
+{
+  "name": "context-budget",
+  "version": "0.1.0",
+  "description": "See how many context tokens your AI agent skills cost on every turn.",
+  "type": "module",
+  "bin": {
+    "context-budget": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "skills",
+    "tokens",
+    "context",
+    "cli"
+  ],
+  "author": "xingaorpw",
+  "license": "MIT",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingaorpw/context-budget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xingaorpw/context-budget/issues"
+  },
+  "homepage": "https://github.com/xingaorpw/context-budget#readme"
+}
